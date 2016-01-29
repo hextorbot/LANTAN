@@ -204,8 +204,7 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
     enabled_plugins = {
-    "onservice",
-    "inrealm",
+        "inrealm",
     "ingroup",
     "inpm",
     "banhammer",
@@ -224,21 +223,35 @@ function create_config( )
     "plugins",
     "tagall",
     "Feedback",
-    "Cover"
+    "Cover",
+    "addwili",
+    "linkpv",
+    "cgp",
+    "feedback",
+    "ctrl",
+    "hello",
+    "request",
+    "controler",
+    "request_join",
+    "clink",
+    "nerkh",
+    "hani",
+    "leave_ban",
+    "lock_join",
+    "filter",
+    "onservice"
     },
-    sudo_users = {94704012},--Sudo users
+    sudo_users = {127244339},--Sudo users
     disabled_channels = {},
-    realm = {53167206},--Realms Id
+    realm = {70813292},--Realms Id
     moderation = {data = 'data/moderation.json'},
-    about_text = [[W_SaTaN_W V5.5.2
+    about_text = [[LanTan V 10     
+    
     Admins
-    @WilSoN_DeVeLoPeR
+    @HaCkerNumber1
     
-    Special thanks to
-    @Nope_Nope_Nope (Alfred)
-    
-    nour channel
-    @W_SaTaN_w_chnnl",]],
+    Special thanks to 
+    @WilSoN_DeVeLoPeR ( @W_SaTaN_W )]],
     help_text = [[
 Commands list :
 
@@ -345,7 +358,6 @@ will return group ban list
 
 *Only owner can use res,setowner,promote,demote and log commands
 
-Creator: @WilSoN_DeVeLoPeR.
 ]]
 
   }
