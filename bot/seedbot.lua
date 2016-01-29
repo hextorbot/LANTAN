@@ -204,7 +204,7 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
     enabled_plugins = {
-        "inrealm",
+    "inrealm",
     "ingroup",
     "inpm",
     "banhammer",
@@ -224,34 +224,28 @@ function create_config( )
     "tagall",
     "Feedback",
     "Cover",
-    "addwili",
+    "addlnt",
     "linkpv",
-    "cgp",
     "feedback",
-    "ctrl",
     "hello",
     "request",
-    "controler",
-    "request_join",
     "clink",
     "nerkh",
-    "hani",
     "leave_ban",
     "lock_join",
-    "filter",
     "onservice"
     },
     sudo_users = {127244339},--Sudo users
     disabled_channels = {},
-    realm = {70813292},--Realms Id
+    realm = {103004076},--Realms Id
     moderation = {data = 'data/moderation.json'},
     about_text = [[LanTan V 10     
     
     Admins
-    @HaCkerNumber1
+    @LanTan_HaCker[Manager]
     
     Special thanks to 
-    @WilSoN_DeVeLoPeR ( @W_SaTaN_W )]],
+    @WIilSoN_DeVeLoPeR[Developer]
     help_text = [[
 Commands list :
 
